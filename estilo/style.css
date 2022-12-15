@@ -1,0 +1,77 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1:#86A7EB;
+    --cor2:#637CAE;
+    --cor3:#3F78EB;
+    --cor4:#2B519F;
+    --cor5:#1D376B;
+
+    --font-texto: 'Poppins', sans-serif;
+    --font-titulo:'Anton', sans-serif;
+    --font-sub:'Emilys Candy', cursive;
+}
+
+html, body {
+    font-family: var(--font-texto);
+
+    background-color: var(--cor1);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--font-titulo);
+    font-weight: bold;
+    font-size: 10vw;
+
+    color: var(--cor5);
+    margin-bottom: 50px;
+}
+
+header h1:hover {
+    color: white;
+}
+
+header img {
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+main {
+    text-align: center;
+    max-width: 100vh;
+    margin: auto;
+    margin-bottom: 30px;
+
+    background-color: white;
+
+    border-radius: 30px;
+    
+}
+
+section {
+    line-height: 2em;
+}
+
+section p {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
